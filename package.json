@@ -4,7 +4,7 @@
   "type": "module",
   "description": "# This is my Javascript code challenge",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"

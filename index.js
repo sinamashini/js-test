@@ -10,7 +10,6 @@ app.get("/", (req, res) => {
   solution2();
   solution3();
   solution4();
-  solution5();
   res.send("Check the logs");
 });
 
