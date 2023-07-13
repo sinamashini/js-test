@@ -14,7 +14,6 @@ const main = () => {
     const resultByImrative = showingArrayImrative(array);
     const resultByDeclrative = showingArrayDeclrative(array);
     console.log("resultByDeclrative", resultByDeclrative);
-    resultByDeclrative("resultByImrative", resultByImrative)
     return {resultByImrative, resultByDeclrative }
 };
 
