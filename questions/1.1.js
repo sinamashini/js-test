@@ -13,6 +13,9 @@ const main = () => {
     const array = [22, 24, 27, 45, 67, 1, 9];
     const resultByImrative = showingArrayImrative(array);
     const resultByDeclrative = showingArrayDeclrative(array);
+    console.log("resultByDeclrative", resultByDeclrative);
+    resultByDeclrative("resultByImrative", resultByImrative)
+    return {resultByImrative, resultByDeclrative }
 };
 
 export default main;

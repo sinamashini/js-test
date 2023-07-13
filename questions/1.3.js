@@ -3,6 +3,7 @@ const main = () => {
     // calculator is a good tool I love it so flat map is here in js should I use it ! why not! it's up to me or u ?
     const flatList = list.flatMap(item => Array.isArray(item) ? item.flatMap(innerItem => innerItem) : item);
     console.log(flatList);
+    return flatList
 }
 
 export default main;

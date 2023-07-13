@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-   const { solution1, solution2, solution3, solution4, solution5 } = solutions
+   const { solution1, solution2, solution3, solution4 } = solutions
   solution1();
   solution2();
   solution3();
