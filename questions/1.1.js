@@ -10,7 +10,7 @@ const showingArrayImrative = (array) => {
 const showingArrayDeclrative = (array) => array.map(item => item);
 
 const main = () => {
-    array = [22, 24, 27, 45, 67, 1, 9];
+    const array = [22, 24, 27, 45, 67, 1, 9];
     const resultByImrative = showingArrayImrative(array);
     const resultByDeclrative = showingArrayDeclrative(array);
 };
