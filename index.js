@@ -6,9 +6,9 @@ const port = 3000;
 
 app.get("/", (req, res) => {
    const { solution1, solution2, solution3, solution4 } = solutions
-  solution1();
-  solution2();
-  solution3();
+//   solution1();
+//   solution2();
+//   solution3();
   solution4();
   res.send("Check the logs");
 });
